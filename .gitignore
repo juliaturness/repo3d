@@ -1,0 +1,5 @@
+# ignora módulos do node
+node_modules/
+
+# ignora arquivos criados pelo vite
+.vite/
