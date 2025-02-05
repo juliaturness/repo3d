@@ -1,13 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
-    <meta charset="utf-8">
-    <title>MUSEU</title>
-    <style>
-      body { margin: 0; }
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Museu Gilberto Gerlach</title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <script type="module" src="main.js"></script>
+    <header>
+      <div class="logo">
+        <h1>Museu Gilberto Gerlach</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#">Início</a></li>
+          <li><a href="#">Exposições</a></li>
+          <li><a href="#">Coleção</a></li>
+          <li><a href="#">Visitação</a></li>
+          <li><a href="#">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="hero-content">
+        <h2>Bem-vindo ao Museu Gilberto Gerlach</h2>
+        <p>Descubra a história e as memórias da nossa cidade e do Brasil através de exposições e coleções.</p>
+        <a href="#exposicoes" class="btn">Conheça Nossas Exposições</a>
+      </div>
+    </section>
+
+    <section id="exposicoes" class="exposicoes">
+      <div class="section-title">
+        <h2>Exposições Recentes</h2>
+      </div>
+      <div class="exposicao-cards">
+        <div class="card">
+          <a href="objeto.html" target="_blank">
+          <img src="img/donut.png" alt="Exposição 1">
+          <h3>Exposição 1</h3>
+          <p>Histórias da nossa cidade e seu patrimônio cultural.</p>
+        </a>
+        </div>
+        <div class="card">
+          <a href="objeto.html" target="_blank">
+          <img src="img/donut.png"  alt="Exposição 2">
+          <h3>Exposição 2</h3>
+          <p>Esculturas e arte contemporânea brasileira.</p>
+        </a>
+        </div>
+        <div class="card">
+          <a href="objeto.html" target="_blank">
+          <img src="img/donut.png" alt="Exposição 3">
+          <h3>Exposição 3</h3>
+          <p>Arte popular e tradicional de Santa Catarina.</p>
+        </a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-content">
+        <p>&copy; 2023 Museu Gilberto Gerlach. Todos os direitos reservados.</p>
+        <div class="social-links">
+          <a href="#">Facebook</a>
+          <a href="#">Instagram</a>
+          <a href="#">Tik Tok</a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
